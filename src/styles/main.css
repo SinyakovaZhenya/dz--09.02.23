@@ -1,0 +1,77 @@
+@import "./reset.css";
+
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e9efd3;
+}
+
+.App {
+	margin: 50px;
+}
+
+.container {
+	padding: 0 15px;
+	max-width: 1200px;
+	font-size: 18px;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.info, .inform {
+	padding: 10px;
+}
+
+ul li {
+	padding-bottom: 10px;
+}
+ol li {
+	padding-bottom: 5px;
+}
+
+.array-item {
+	margin: 15px;
+	padding: 10px;
+	border: 2px solid #a6d18f;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 2px #a6d18f;
+}
+
+.array-item__info {
+	padding-bottom: 10px;
+}
+
+.ball {
+	margin: 100px auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	position: relative;
+	background-color: blueviolet;
+}
+
+.block {
+	margin: 100px auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	position: absolute;
+	transform: translate(75%, -25px);
+	background-color: rgb(184, 154, 213);
+}
+
+.text {
+	position: absolute;
+	transform: translate(30%, 35px);
+}
+
+
+
